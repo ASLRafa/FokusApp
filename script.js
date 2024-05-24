@@ -49,6 +49,7 @@ function alterarcontexto(contexto,texto,temporizador){
     botoes.forEach(function (contexto){
         contexto.classList.remove('active')
     })
+    zerar()
     tempoDecorrido = temporizador;
     exibeTempo()
     html.setAttribute('data-contexto',contexto)
